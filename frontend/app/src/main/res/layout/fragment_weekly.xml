@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/temperatureRangeText"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="TemperatureRange"
+        android:textColor="#808080"
+        android:textSize="24sp"
+        android:layout_gravity="top|center_horizontal"
+        android:background="@color/black"
+        android:gravity="center"/>
+
+    <com.highsoft.highcharts.core.HIChartView
+        android:id="@+id/chartcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="150dp"/>
+
+
+</FrameLayout>

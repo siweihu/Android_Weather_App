@@ -1,0 +1,13 @@
+# This file specifies files and directories that should be
+# ignored when using gcloud commands.
+# For more information, run:
+#   $ gcloud topic gcloudignore
+
+node_modules/
+npm-debug.log
+yarn-error.log
+.gcloudignore
+.git/
+.gitignore
+.DS_Store
+.env

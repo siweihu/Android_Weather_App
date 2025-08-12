@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SplashScreen">
+        <item name="android:windowSplashScreenBackground">@android:color/black</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/icon_small</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/powered_by_tomorrow</item>
+        <item name="postSplashScreenTheme">@style/Theme.WeatherApp</item>
+    </style>
+
+    <style name="Theme.WeatherApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#101010</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+
+
+
+</resources>

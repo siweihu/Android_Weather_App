@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="content_description_search">Search</string>
+    <string name="today_fragment">Today</string>
+    <string name="weekly_fragment">Weekly</string>
+    <string name="data_fragment">DATA</string>
+    <string name="tab_icon">TAB_ICON</string>
+
+</resources>
